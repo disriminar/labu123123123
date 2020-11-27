@@ -1,0 +1,138 @@
+@media (max-width: 800px) {
+    .topnav {
+      background-color: red;
+    }
+  }
+  body {
+    font-family: "Times New Roman", "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(15, 15, 15);
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .img-nav {
+    position: fixed;
+    min-width: 10%;
+    max-width: 100%;
+  }
+  
+  #nav-bar {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 20px 3% 0px;
+    background-color: rgb(196, 199, 194);
+    color: black;
+    overflow: hidden;
+  }
+  #nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .logo {
+    float: left;
+    display: flex;
+    height: 100%;
+    width: 40%;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+  }
+  .nav-list {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+  }
+  .nav-list li {
+    list-style: none;
+  }
+  .nav-list a {
+    display: block;
+    padding: 1rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  #email {
+    left: 45%;
+    height: 25px;
+    background-color: rgb(241, 241, 241);
+    color: #000000;
+    margin-bottom: 14px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 100%;
+    min-width: 10%;
+    height: auto;
+  }
+  #title {
+    margin: 80px 0px 20px 0px;
+  }
+  .div-title,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    text-align: center;
+    font-weight: bold;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 10px 0px 20px;
+  }
+  .button-wrapper,
+  .input-wrapper,
+  .How-It-Works {
+    display: flex;
+    justify-content: center;
+  }
+  input[type="email"] {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background: rgb(241, 241, 241);
+    outline: none;
+    height: 24px;
+    width: 250px;
+    color: #386808;
+    font-size: 14px;
+    font-family: Tahoma;
+  }
+  #submit {
+    display: inline-block;
+    color: #000000;
+    font-size: 100%;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    border: 1px solid rgb(248, 237, 237);
+    border-radius: 7px;
+    height: 30px;
+    width: 100px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header> 
+      <h1 id="title"></h1>
+      <p id="description">
+        Спасибі,що виділили час на наше опитування.
+      </p>
+    </header>
+    <div class="container">
+      <form id="survey-form" action="#" method="POST">
+        <div class="main">
+          <div>
+            <label for="name" id="name-label">Ім'я</label>
+          </div>
+          <div>
+            <input
+              id="name"
+              placeholder="Enter you name"
+              type="text"
+              name="username"
+              class="form-control"
+              required
+            />
+          </div>
+          <div>
+            <label id="email-label" for="email">Е-пошта</label>
+          </div>
+          <div>
+            <input
+              id="email"
+              placeholder="Enter your email address"
+              type="email"
+              name="email"
+              class="form-control"
+              required
+            />
+          </div>
+          <div><label for="number" id="number-label">Номер телефону</label></div>
+          <div>
+            <input
+              id="number"
+              placeholder="Enter you number phone "
+              type="phone"
+              name="phone"
+              class="form-control"
+              required
+            />
+          </div>
+          <div>
+            <label for="Age" id="Age-label">Вік</label>
+          </div>
+          <div>
+            <input
+              id="Age"
+              type="number"
+              name="age"
+              min="16"
+              max="100"
+              class="form-control"
+              placeholder="Enter you age "
+              required
+            />
+          </div>
+          <div id="role">
+            <p>Виберіть варіант який підходить вам.</p>
+          </div>
+          <div>
+            <select name="role" id="dropdown">
+              <option value="role">Студент</option>
+              <option value="job">Робітник</option>
+              <option value="learner">Анонімно</option>
+              <option value="preferNo">Пенсіонер</option>
+              <option value="other">Інший</option>
+            </select>
+          </div>
+          <div>
+            <p>Ви проживаєте в тернополі?</p>
+            <label>
+              <input
+                class="radio-control"
+                type="radio"
+                name="user-recommend"
+                value="Yes"
+              />Так</label
+            >
+            <div>
+              <label
+                ><input
+                  class="radio-control"
+                  type="radio"
+                  name="user-recommend"
+                  value="No"
+                />
+                Ні
+              </label>
+            </div>
+          </div>
+          <div>
+            <p>
+              Якого кандидата ви б не хотіли бачити у кріслі мера?.
+              <span>(Можете вибрати пару варіантів)</span>
+            </p>
+            <div>
+              <div>
+                <label
+                  ><input
+                    name="prefer"
+                    value="front-end-projects"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />кандитан</label
+                >
+              </div>
+              <div>
+                <label>
+                  <input
+                    name="prefer"
+                    value="back-end-projects"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />кандитан1</label
+                >
+              </div>
+              <div>
+                <label
+                  ><input
+                    name="prefer"
+                    value="data-visualization"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />кандитан2</label
+                >
+              </div>
+              <div>
+                <label
+                  ><input
+                    name="prefer"
+                    value="challenges"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />кандитан3</label
+                >
+              </div>
+
+              <div>
+                <label
+                  ><input
+                    name="prefer"
+                    value="challenges"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />кандитан4</label
+                >
+              </div>
+              <div>
+                <label
+                  ><input
+                    name="prefer"
+                    value="challenges"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />кандитан5</label
+                >
+              </div>
+            </div>
+            <div>
+              <p>Чому саме він(вони)?</p>
+              <textarea
+                class="input-textarea"
+                id="comments"
+                name="comment"
+                placeholder="Enter your comment here..."
+              ></textarea>
+            </div>
+            <button id="submit-button" type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
